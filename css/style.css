@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.7;
+  color: rgb(212, 212, 212);
+  padding: 30px;
+}
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(152, 27, 27, 0.418),
+      rgba(252, 165, 165, 0.411)
+    ),
+    url(../img/ting-tian-_79ZJS8pV70-unsplash.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heading-primary {
+  color: #fafafa;
+  text-transform: uppercase;
+}
+
+.heading-primary-main {
+  display: block;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 15px;
+}
+
+.heading-primary-sub {
+  display: block;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 15px;
+}
+
+.heading-primary-title {
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 10px;
+}
