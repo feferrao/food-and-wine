@@ -10,30 +10,31 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: rgb(212, 212, 212);
-  padding: 30px;
+  padding: 20px;
 }
 
 .header {
-  height: 95vh;
+  height: 110vh;
   background-image: linear-gradient(
-      to right,
-      rgba(152, 27, 27, 0.418),
-      rgba(252, 165, 165, 0.411)
-    ),
-    url(../img/ting-tian-_79ZJS8pV70-unsplash.jpg);
+    to right bottom, 
+    rgba(152, 27, 27, 0.418), 
+    rgba(252, 165, 165, 0.411), 
+  url(../img/tjaard-krusch-1sZlYiVqGg0-unsplash.jpg);
   background-size: cover;
-  background-position: top;
+  background-position: bottom;
+  position: relative;
 }
 
 .text-box {
   position: absolute;
   top: 50%;
   left: 50%;
+  text-align: center;
   transform: translate(-50%, -50%);
 }
 
 .heading-primary {
-  color: #fafafa;
+  color: #d4d4d4;
   text-transform: uppercase;
 }
 
@@ -46,7 +47,7 @@ body {
 
 .heading-primary-sub {
   display: block;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
   letter-spacing: 15px;
 }
