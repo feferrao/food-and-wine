@@ -2,59 +2,119 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-body {
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.7;
-  color: rgb(212, 212, 212);
-  padding: 20px;
-}
-
-.header {
-  height: 110vh;
-  background-image: linear-gradient(
-    to right bottom, 
-    rgba(152, 27, 27, 0.418), 
-    rgba(252, 165, 165, 0.411), 
-  url(../img/tjaard-krusch-1sZlYiVqGg0-unsplash.jpg);
-  background-size: cover;
-  background-position: bottom;
+.site-header {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
   position: relative;
+  background-color: #000;
 }
 
-.text-box {
+.first-img {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.banner {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  text-align: center;
-  transform: translate(-50%, -50%);
+  top: 30%;
+  left: 15%;
 }
 
-.heading-primary {
-  color: #d4d4d4;
-  text-transform: uppercase;
-}
-
-.heading-primary-main {
-  display: block;
-  font-size: 40px;
-  font-weight: 600;
-  letter-spacing: 15px;
-}
-
-.heading-primary-sub {
-  display: block;
-  font-size: 30px;
-  font-weight: 600;
-  letter-spacing: 15px;
-}
-
-.heading-primary-title {
-  display: block;
-  font-size: 20px;
+.banner h1 {
+  color: #ffffff;
+  font-family: "Caslon", sans-serif;
+  font-size: 4rem;
   font-weight: 400;
-  letter-spacing: 10px;
+  text-shadow: 0.1rem 0.1rem 1px rgba(0, 0, 0, 0.4);
+  line-height: 3.5rem;
+  margin-bottom: 2rem;
+  opacity: 0;
+  animation: MoveBanner 1s 0.5s forwards;
 }
+
+.banner p {
+  color: #ffffff;
+  font-family: "Baskerville", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  text-shadow: 0.1rem 0.1rem 1px rgba(0, 0, 0, 0.4);
+  margin-bottom: 2rem;
+  opacity: 0;
+  animation: MoveBanner 1s 0.7s forwards;
+}
+.banner button {
+  color: #fff;
+  font-family: "Baskerville", sans-serif;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  background: #5c258d;
+  background: -webkit-linear-gradient(to right, #4389a2, #5c258d);
+  background: linear-gradient(to right, #4389a2, #5c258d);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0;
+  animation: MoveBanner 1s 0.9s forwards;
+}
+
+.banner button:hover {
+  opacity: 0.8;
+  color: #000;
+}
+
+@keyframes MoveBanner {
+  0% {
+    transform: translateY(10rem);
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/*
+.container {
+}
+
+.nav-bar {
+  width: 100%;
+  height: 60px;
+  background-color: #fca5a5;
+}
+
+.main-bar {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.list-bar {
+  color: #ffffff;
+  float: left;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: pink;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: yellow;
+}*/
