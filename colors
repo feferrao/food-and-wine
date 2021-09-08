@@ -1,3 +1,10 @@
+.color-primary-0 { color: #420202 }	/* Main Primary color */
+.color-primary-1 { color: #8F2E2E }
+.color-primary-2 { color: #661212 }
+.color-primary-3 { color: #240000 }
+.color-primary-4 { color: #0D0000 }
+
+
 $color-red-superligth:#FEE2E2;
 $color-red-ligth: #FECACA;
 $color-red-ligth-2:#FCA5A5;
