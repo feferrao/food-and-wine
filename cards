@@ -1,0 +1,151 @@
+<section class="section-vinhos">
+        <div class="texto-central">
+          <h1 class="heading-primary">
+            Tipos de vinho
+          </h1>
+        </div>
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front card__side--front-1">
+                <h2 class="rose-card">
+                  Vinho Branco
+                </h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error recusandae ad culpa, est non iste delectus dicta vitae commodi animi fugiat nostrum, rerum id vero pariatur esse dolore mollitia. Quaerat.</p>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <ul class="card-back">         
+                  <li><a href="#" class="card-link">Vinho branco</a></li>
+                  <li><a href="#" class="card-link">Vinho verde</a></li>
+                  <li><a href="#" class="card-link">Vinho licoroso</a></li>
+                  <li><a href="#" class="card-link">Vinho espumante</a></li>              
+                </ul>
+              </div>
+            </div>  
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front card__side--front-2">
+                <h2 class="rose-card">
+                  Vinho Rose
+                </h2> 
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error recusandae ad culpa, est non iste delectus dicta vitae commodi animi fugiat nostrum, rerum id vero pariatur esse dolore mollitia. Quaerat.</p>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <ul class="card-back">         
+                  <li><a href="#" class="card-link">Vinho branco</a></li>
+                  <li><a href="#" class="card-link">Vinho verde</a></li>
+                  <li><a href="#" class="card-link">Vinho licoroso</a></li>
+                  <li><a href="#" class="card-link">Vinho espumante</a></li>              
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front card__side--front-3">
+                <h2 class="rose-card">
+                  Vinho Tinto
+                </h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error recusandae ad culpa, est non iste delectus dicta vitae commodi animi fugiat nostrum, rerum id vero pariatur esse dolore mollitia. Quaerat.</p> 
+              </div>
+              
+              <div class="card__side card__side--back card__side--back-3">
+                <ul class="card-back">         
+                  <li><a href="#" class="card-link">Vinho branco</a></li>
+                  <li><a href="#" class="card-link">Vinho verde</a></li>
+                  <li><a href="#" class="card-link">Vinho licoroso</a></li>
+                  <li><a href="#" class="card-link">Vinho espumante</a></li>              
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      https://www.tuasaude.com/beneficios-do-vinho-para-a-saude/
+
+      /*
+.card {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  height: 50rem;
+  width: 365px;
+}
+
+.card__side {
+  width: 366px;
+  display: grid;
+  height: 450px;
+  transition: all 1s ease;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.card__side--front-1 {
+  background: linear-gradient(to right bottom, #fffded, #e7c9219a);
+}
+
+.card__side--front-2 {
+  background: linear-gradient(to right bottom, #ff83b38f, #f719b4);
+}
+
+.card__side--front-3 {
+  background: linear-gradient(to right bottom, #c4060d, #53021d);
+}
+
+.card__side--back {
+  transform: rotateY(180deg);
+}
+
+.card:hover .card__side--front {
+  transform: rotateY(180deg);
+}
+
+.card:hover .card__side--back {
+  transform: rotateY(0);
+}
+
+.card-back {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card__side--back-1 {
+  background: linear-gradient(to right bottom, #fffded, #e7c9219a);
+}
+
+.card__side--back-2 {
+  background: linear-gradient(to right bottom, #ff83b38f, #f719b4);
+}
+
+.card__side--back-3 {
+  background: linear-gradient(to right bottom, #c4060d, #53021d);
+}
+ */
+
+ /*cards
+.section-vinhos {
+  background-color: #000;
+  padding: 15rem 0 15rem 0;
+}
+
+.texto-central {
+  margin: 0px;
+}
+
+.heading-primary {
+  font-size: 4rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-align: center;
+}*/

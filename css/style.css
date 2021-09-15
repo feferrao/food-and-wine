@@ -7,19 +7,18 @@
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: #fee2e2;
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  padding: 0px 10px 0px 10px;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .top-faixa {
   width: 100%;
-  height: 50px;
+  height: 55px;
   box-sizing: border-box;
-  background: rgba(72, 0, 50, 0.9);
+  background: rgba(83, 2, 29, 0.836);
   position: relative;
 }
 
@@ -35,7 +34,6 @@ body {
 .navigation {
   height: 4rem;
   width: 100%;
-  background-color: black;
 }
 
 .nav__list {
@@ -60,12 +58,12 @@ body {
   text-shadow: 1px 1px 1px rgba(46, 1, 32, 0.575);
   transition: all 0.2s;
 }
+
 a {
   padding: 15px;
   display: block;
   text-decoration: none;
   text-align: center;
-  background-color: black;
   color: #ffffff;
 }
 
@@ -156,66 +154,99 @@ ul ul li {
   cursor: pointer;
 }
 
-/*cards
-.section-vinhos {
-  background-color: #000;
-  padding: 15rem 0 15rem 0;
+.sessao-conhecimentos {
+  width: 100%;
+  height: 110vh;
+  background-color: #fee2e2;
 }
 
-.texto-central {
-  margin: 0px;
+.sessao-header {
+  width: 100%;
+  height: 100px;
 }
 
-.heading-primary {
-  font-size: 4rem;
-  font-family: "Quicksand", sans-serif;
-  font-weight: 400;
-  color: #ffffff;
-  letter-spacing: 0.5px;
+.header-h1 {
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 1.5rem;
+  margin-top: 30px;
+  color: #53021d;
+  font-family: "Libre Baskerville", Sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2em;
 }
 
 .row {
   width: 100%;
-  height: 450px;
+  height: 300px;
 }
 
 .col-1-of-3 {
-  width: 33%;
-  height: 450px;
+  width: 30%;
   display: inline-grid;
-  margin-top: 30px;
   justify-content: space-evenly;
+  color: #fff;
+  padding: 25px;
+}
+
+.reasons-p {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #53021d;
+  text-align: center;
 }
 
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 50rem;
-  width: 365px;
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
 }
 
 .card__side {
-  width: 366px;
+  width: 360px;
+  height: 230px;
   display: grid;
-  height: 450px;
   transition: all 1s ease;
   position: absolute;
   backface-visibility: hidden;
+  border-radius: 12px;
+  filter: brightness(90%);
 }
 
 .card__side--front-1 {
-  background: linear-gradient(to right bottom, #fffded, #e7c9219a);
+  background-image: url(/img/daniel-tong-xBeid9r1paU-unsplash.jpg);
+  background-size: cover;
 }
 
 .card__side--front-2 {
-  background: linear-gradient(to right bottom, #ff83b38f, #f719b4);
+  background-image: url(/img/maja-petric-vGQ49l9I4EE-unsplash.jpg);
+  background-size: cover;
 }
 
 .card__side--front-3 {
-  background: linear-gradient(to right bottom, #c4060d, #53021d);
+  background-image: url(/img/scott-warman-rrYF1RfotSM-unsplash.jpg);
+  background-size: cover;
+}
+
+.card__side--front-4 {
+  background-image: url(/img/douglas-lopez-XzAh8B8HAvA-unsplash.jpg);
+  background-size: cover;
+}
+
+.card__side--front-5 {
+  background-image: url(/img/designecologist-ACt2UZwHsIk-unsplash.jpg);
+  background-size: cover;
+}
+
+.card__side--front-6 {
+  background-image: url(/img/louis-hansel-IipiNCpQw0k-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .card__side--back {
@@ -232,7 +263,7 @@ ul ul li {
 
 .card-back {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 10px;
   font-family: "Quicksand", sans-serif;
   font-weight: 400;
   letter-spacing: 0.5px;
@@ -251,68 +282,180 @@ ul ul li {
 .card__side--back-3 {
   background: linear-gradient(to right bottom, #c4060d, #53021d);
 }
- */
-.heading-secondary {
-  font-size: 3.5rem;
-  text-transform: uppercase;
-  font-weight: 400;
-  background-image: linear-gradient(to right, #fffded, #808080);
-  -webkit-background-clip: text;
-  color: transparent;
-  text-align: center;
+
+.card__side--back-4 {
+  background: linear-gradient(to right bottom, #fffded, #e7c9219a);
 }
 
-.reasons-p {
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  font-weight: 400;
-  background-image: linear-gradient(to right, #fffded, #808080);
-  -webkit-background-clip: text;
-  color: transparent;
-  text-align: center;
+.card__side--back-5 {
+  background: linear-gradient(to right bottom, #ff83b38f, #f719b4);
 }
 
-.resons {
-  width: 100%;
-  height: 110vh;
-  background-color: #000;
+.card__side--back-6 {
+  background: linear-gradient(to right bottom, #c4060d, #53021d);
+}
+
+.h2-card {
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+  font-weight: 200;
   color: #ffffff;
+  text-shadow: 1px 1px 1px rgba(46, 1, 32, 0.575);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
-.row {
-  width: 100%;
-  height: 200px;
-}
-
-.col-1-of-3 {
-  width: 33%;
-  height: 450px;
-  display: inline-grid;
-  margin-top: 30px;
-  margin-bottom: 30px;
+.conhecimento-header {
+  display: flex;
+  align-items: center;
+  text-align: center;
   justify-content: space-evenly;
 }
 
-.card {
-  position: relative;
-  height: 200px;
-  width: 365px;
-}
-
-.convite {
+.footer {
   width: 100%;
-  height: 110vh;
-  background-color: #000;
-  color: #ffffff;
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+  height: 100vh;
+  background-image: url(/img/dan-cristian-padure-wZoqZr707VY-unsplash.jpg);
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: saturation;
+  background-size: cover;
 }
 
-.glass {
-  width: 45%;
-  object-fit: cover;
-  float: left;
+.elemento-container {
+  max-width: 1050px;
+  top: 50px;
+  display: flex;
+  margin: auto;
+  position: relative;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+.video {
+  box-shadow: 0px 0px 10px 6px rgb(0 0 0 / 36%);
+  display: inline-block;
+  height: 525px;
+  object-fit: fill;
+}
+
+.text-footer-box {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 0 30px 0 30px;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 .heading-footer {
-  width: 45%;
   float: right;
+  color: #ffffff;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 5.6px;
+  float: left;
+  text-transform: uppercase;
+}
+
+.text-footer {
+  float: right;
+  font-family: "Libre Baskerville", serif;
+  font-size: 82px;
+  font-weight: 600;
+  color: #ffffff;
+  box-sizing: border-box;
+  clear: both;
+  text-shadow: 0 0 20px black;
+  margin-bottom: 20px;
+}
+
+.footer-p {
+  font-family: "Roboto Slab", serif;
+  line-height: 2rem;
+  font-size: 18px;
+  font-weight: 200;
+  color: #ffffff;
+  margin-top: 30px;
+  text-shadow: 0 0 20px black;
+}
+
+/*Branco*/
+
+.body-branco {
+  background-color: #fff9db;
+}
+
+.branco-header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: transparent;
+  padding: 20px 0px;
+  transition: background-color 0.25s;
+}
+
+.style-top {
+  background: url(/img/markus-winkler-W5IS-tuYhd8-unsplash.jpg);
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  margin-bottom: 186px;
+  align-items: flex-end;
+}
+
+.fundo-top {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff9db);
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  height: 500px;
+  position: absolute;
+  width: 100%;
+}
+
+.logo-branco {
+  padding-left: 40px;
+  color: #30251c;
+  text-transform: uppercase;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 107px;
+  margin-bottom: -100px;
+  margin: 0.67em 0;
+}
+
+.p-branco {
+  padding-left: 40px;
+  color: #30251c;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: -100px;
+  margin: 0.67em 0;
+}
+
+.tipo-vinho {
+  height: 100vh;
+}
+
+.p-tipo-vinho {
+  width: 40%;
+  float: right;
+  margin: 35px;
+}
+
+.img-branco {
+  width: 45%;
+  float: left;
+  margin: 35px;
 }
