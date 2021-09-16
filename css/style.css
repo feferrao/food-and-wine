@@ -18,8 +18,18 @@ body {
   width: 100%;
   height: 55px;
   box-sizing: border-box;
-  background: rgba(83, 2, 29, 0.836);
+  background: rgba(83, 2, 29);
   position: relative;
+}
+
+.home-logo {
+  width: 315px;
+  margin-top: 15px;
+  float: left;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .header {
@@ -37,7 +47,7 @@ body {
 }
 
 .nav__list {
-  width: 650px;
+  width: 515px;
   margin-top: 15px;
   float: right;
   list-style: none;
@@ -154,6 +164,39 @@ ul ul li {
   cursor: pointer;
 }
 
+.icone-seta {
+  font-size: 100px;
+  color: #30251c;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.icone-seta:hover,
+icone-seta:focus {
+  color: #ff214f;
+  text-decoration: none;
+}
+
+.sobre {
+  height: 80vh;
+  background-color: #fff;
+}
+
+.sobre-col {
+  color: #30251c;
+  visibility: visible;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+
+  animation-name: fadeInUp;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
 .sessao-conhecimentos {
   width: 100%;
   height: 110vh;
@@ -186,7 +229,6 @@ ul ul li {
   width: 30%;
   display: inline-grid;
   justify-content: space-evenly;
-  color: #fff;
   padding: 25px;
 }
 
@@ -387,7 +429,7 @@ ul ul li {
 /*Branco*/
 
 .body-branco {
-  background-color: #fff9db;
+  background-color: #ebfbee;
 }
 
 .branco-header {
@@ -397,7 +439,6 @@ ul ul li {
   width: 100%;
   z-index: 1000;
   background-color: transparent;
-  padding: 20px 0px;
   transition: background-color 0.25s;
 }
 
@@ -414,7 +455,7 @@ ul ul li {
 }
 
 .fundo-top {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff9db);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ebfbee);
   position: relative;
   bottom: 0px;
   left: 0px;
@@ -424,14 +465,17 @@ ul ul li {
 }
 
 .logo-branco {
+  font-family: "Libre Baskerville", serif;
+  font-size: 55px;
+  font-weight: 600;
+  box-sizing: border-box;
+  text-shadow: 1px 1px 1px rgb(46 1 32 / 57%);
   padding-left: 40px;
   color: #30251c;
   text-transform: uppercase;
-  font-size: 70px;
-  font-weight: 400;
-  line-height: 107px;
   margin-bottom: -100px;
   margin: 0.67em 0;
+  text-align: center;
 }
 
 .p-branco {
@@ -448,14 +492,71 @@ ul ul li {
   height: 100vh;
 }
 
+.row-branco {
+  padding: 50px;
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.col-1-of-2 {
+  box-sizing: border-box;
+  flex: 1 1 0%;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.h2-branco {
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+}
+
 .p-tipo-vinho {
-  width: 40%;
+  margin-bottom: 20px;
   float: right;
-  margin: 35px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .img-branco {
-  width: 45%;
-  float: left;
-  margin: 35px;
+  width: 65%;
+  border-radius: 12px;
+  box-shadow: 1px 1px 1px rgb(46 1 32 / 57%);
+}
+
+.como-e-feito {
+  height: 100vh;
+  margin-top: 10rem;
+}
+
+.col-1-of-4 {
+  box-sizing: border-box;
+  flex: 1 1 0%;
+  position: relative;
+  width: 330px;
+  display: inline-grid;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+
+.col-style {
+  background-color: #53021d;
+  width: 275px;
+  height: 375px;
+  display: grid;
+  transition: all 1s ease;
+  position: absolute;
+  border-radius: 12px;
+  filter: brightness(90%);
 }
