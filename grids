@@ -1,14 +1,34 @@
+<section class="saude">
+  <h2 class="heading-secondary">Porque é saudavel</h2>
+  <p>muita saude</p>
+</section>
+<section class="coracao">
+  <h2 class="heading-secondary">Porque faz bem ao coração</h2>
+  <p>faz bem ao coração</p>
+</section>
+<section class="fat-free">
+  <h2 class="heading-secondary">Porque não engorda</h2>
+  <p>menos calorias que um pão</p>
 
-         
+  <section class="enchendo">
+    <div class="enchendo-box">
+      <p class="enchendo-p">
+        “O vinho é, por si só um remédio. Nutre de forças o sangue do homem,
+        alegra ao estômago, adormece os pesares e as preocupações.”
+      </p>
+      <h1 class="enchendo-h1">Plínio, o Velho, ( 24-79 d.C.)</h1>
+    </div>
+  </section>
 
-        <section class="saude">
-          <h2 class="heading-secondary">Porque é saudavel</h2>
-          <p>muita saude</p>
-        </section>
-        <section class="coracao">
-          <h2 class="heading-secondary">Porque faz bem ao coração</h2>
-          <p>faz bem ao coração</p>
-        </section>
-        <section class="fat-free">
-          <h2 class="heading-secondary">Porque não engorda</h2>
-          <p>menos calorias que um pão</p>
+  .enchendo { background: url(/img/rajesh-rajput-y2MeW00BdBo-unsplash.jpg);
+  background-color: rgba(0, 0, 0, 0.5); background-blend-mode: saturation;
+  width: 100%; height: 95vh; object-fit: cover; } .enchendo-box { background:
+  transparent; border: 2px solid; border-color: transparent; box-sizing:
+  border-box; width: 55%; padding: 35px; box-shadow: 0px 0px 7px 2px rgba(233,
+  198, 210, 0.301); top: 50%; left: 50%; transform: translate(40%, 65%); }
+  .enchendo-h1 { color: #ffffff; font-family: "Quicksand", sans-serif;
+  font-size: 20px; font-weight: 600; text-align: right; text-shadow: 1px 1px 1px
+  rgba(46, 1, 32, 0.575); } .enchendo-p { color: #ffffff; font-family:
+  "Quicksand", sans-serif; font-size: 30px; font-weight: 400; text-align:
+  justify; text-shadow: 1px 1px 1px rgba(46, 1, 32, 0.575); }
+</section>

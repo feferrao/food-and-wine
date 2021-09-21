@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #fee2e2;
+  background-color: #fff;
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -19,7 +19,8 @@ body {
   height: 55px;
   box-sizing: border-box;
   background: rgba(83, 2, 29);
-  position: relative;
+  position: fixed;
+  z-index: 1000;
 }
 
 .home-logo {
@@ -33,9 +34,9 @@ body {
 }
 
 .header {
-  height: 110vh;
-  background-image: url(/img/john-murzaku-zebTTTLLsoo-unsplash.jpg);
-  background-color: rgba(0, 0, 0, 0.404);
+  height: 100vh;
+  background-image: url(/img/john-murzaku-zebTTTLLsoo-unsplash.jpg),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0), #000);
   background-blend-mode: saturation;
   background-size: cover;
   background-position: top;
@@ -164,112 +165,59 @@ ul ul li {
   cursor: pointer;
 }
 
-.icone-seta {
-  font-size: 100px;
-  color: #30251c;
-  position: relative;
-  text-align: center;
-  cursor: pointer;
-}
-
-.icone-seta:hover,
-icone-seta:focus {
-  color: #ff214f;
-  text-decoration: none;
-}
-
 .sobre {
-  height: 80vh;
-  background-color: #fff;
+  height: 90vh;
+  background-image: linear-gradient(to top, #fff, #000);
 }
+
 .p-sobre {
   color: #ff214f;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 600;
   text-align: center;
-  padding-top: 4em;
+  padding-top: 6em;
   margin-bottom: 5px;
 }
 
 .h1-sobre {
-  color: #232323;
+  color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-size: 32px;
   font-weight: 600;
   text-align: center;
   padding-bottom: 1.5em;
-  margin: 0 140px 0 140px;
+  margin: 0 140px;
 }
 
-.sobre-col {
-  color: #30251c;
-  background-color: #d6abb9;
-  width: 250px;
-  height: 200px;
-  margin-left: 125px;
-
-  animation: fadebackground 6s infinite;
-  animation-fill-mode: both;
-}
-
-@keyframes fadebackground {
-  from {
-    background-color: #fce97f;
-  }
-  to {
-    background-color: #2eb07b;
-  }
-}
-
-i {
-  background-color: #480032;
-  font-size: 50px;
-  font-weight: 400;
-  color: #f4f4f4;
-  text-align: center;
-}
-
-.enchendo {
-  background: url(/img/rajesh-rajput-y2MeW00BdBo-unsplash.jpg);
+.grid-section {
   width: 100%;
-  height: 95vh;
-  object-fit: cover;
-  opacity: 0.8;
+  align-items: center;
+  margin: 0 50px 0 50px;
 }
 
-.enchendo-box {
-  background: transparent;
-  border: 2px solid;
-  border-color: #c4060d;
-  box-sizing: border-box;
-  width: 70%;
-  padding: 50px;
-  box-shadow: 6px 4px 8px -2px;
-}
-
-.enchendo-h1 {
-  color: #ffffff;
-  font-family: "Quicksand", sans-serif;
-  font-size: 80px;
-  font-weight: 600;
-  text-align: center;
-  /*margin: 80px 80px 0 80px;*/
-}
-
-.enchendo-p {
-  color: #ffffff;
-  font-family: "Quicksand", sans-serif;
-  font-size: 30px;
+.sobre-col,
+.sobre-col-2,
+.sobre-col-3 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
   font-weight: 400;
-  text-align: justify;
-  /*margin: 0 80px 80px 80px;*/
+  text-align: center;
+}
+
+.h4-sobre {
+  margin-bottom: 10px;
+}
+
+.text-sobre {
+  margin-bottom: 10px;
 }
 
 .sessao-conhecimentos {
   width: 100%;
   height: 110vh;
-  background-color: #fee2e2;
+  background-color: #fff;
 }
 
 .sessao-header {
